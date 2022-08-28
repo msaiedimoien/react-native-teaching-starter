@@ -23,6 +23,12 @@ const HomeScreen = ({navigation}) => {
                     onPress={() => navigation.navigate('Image')}
                 />
             </TouchableOpacity>
+            <TouchableOpacity style={styles.button}>
+                <Button
+                    title='Counter Screen Demo'
+                    onPress={() => navigation.navigate('Counter')}
+                />
+            </TouchableOpacity>
         </View>
     );
 };
