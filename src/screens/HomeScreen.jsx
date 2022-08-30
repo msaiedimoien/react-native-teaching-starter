@@ -59,6 +59,12 @@ const HomeScreen = ({navigation}) => {
                     onPress={() => navigation.navigate('Text')}
                 />
             </TouchableOpacity>
+            <TouchableOpacity style={styles.button}>
+                <Button
+                    title='Box Screen Demo'
+                    onPress={() => navigation.navigate('Box')}
+                />
+            </TouchableOpacity>
         </View>
     );
 };
