@@ -25,8 +25,14 @@ const HomeScreen = ({navigation}) => {
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
                 <Button
-                    title='Counter Screen Demo'
+                    title='Counter Screen(State) Demo'
                     onPress={() => navigation.navigate('Counter')}
+                />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.button}>
+                <Button
+                    title='Counter Screen(Reducer) Demo'
+                    onPress={() => navigation.navigate('CounterReducer')}
                 />
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
